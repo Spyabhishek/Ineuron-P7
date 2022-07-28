@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-top: 40px;
+  justify-content: space-around;
+}
+.logo {
+  height: 50px;
+}
+.nav-bar .nav-items {
+  display: flex;
+}
+.nav-item {
+  margin-left: 80px;
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 200;
+}
+.active-item {
+  color: #fe5e35;
+  font-weight: 1000;
+}
+.icon {
+  position: relative;
+  left: 102px;
+}
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  flex: 300px;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-section-first-text {
+  position: relative;
+  top: 100px;
+  right: 95px;
+}
+.circle-img {
+  position: relative;
+  left: 15px;
+  top: 5px;
+}
+.new-product {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 300;
+}
+.main-heading {
+  position: relative;
+  font-family: Fredoka One;
+  font-weight: 400;
+  top: 70px;
+  left: 95px;
+  font-size: 75px;
+}
+.sub-headlines {
+  position: relative;
+  top: 40px;
+  right: 20px;
+}
+.sub-headline {
+  position: relative;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+.plus {
+  position: relative;
+  right: 20px;
+  height: 40px;
+  background-color: #fe5e35;
+  border-radius: 100px;
+}
+.text {
+  position: relative;
+  top: 80px;
+  left: 95px;
+  font-size: 14px;
+  font-family: poppins;
+  color: #434343;
+}
+.action-btns {
+  position: relative;
+  top: 100px;
+  right: 40px;
+}
+.action-btn {
+  position: relative;
+  margin: 0px 20px;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.discount {
+  position: absolute;
+  height: 150px;
+  z-index: 2;
+  bottom: 160px;
+  right: 475px;
+}
+.discount-content {
+  position: absolute;
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  bottom: 210px;
+  right: 498px;
+  line-height: 30px;
+}
+.discount-content h4 {
+  font-size: 13px;
+  left: 18%;
+  bottom: 140%;
+  position: absolute;
+  color: #ffffff;
+}
+.discount-content h1 {
+  font-size: 50px;
+  font-family: Fredoka One;
+  font-weight: 500;
+  color: #ffffff;
+}
+.headphone-img {
+  position: relative;
+  height: 550px;
+  top: 25px;
+  right: 45px;
+}
+.dots {
+  position: relative;
+  flex-direction: row;
+  z-index: 2;
+  top: 50px;
+  right: 34px;
+  display: flex;
+}
+.dots .dot {
+  margin: 0px 20px;
+  width: 30px;
+  border-radius: 50px;
+  height: 30px;
+}
+.yellow-dot {
+  background-color: #f9e10a;
+}
+.tomato-dot {
+  background-color: #ff6347;
+}
+.black-dot {
+  background-color: #000000;
+}
+.action-btn btn-cart {
+  position: relative;
+  top: 121px;
+  right: 250px;
+}
+.action-btn {
+  background-color: #fe5e35;
+  color: #ffffff;
+  position: relative;
+  top: 17%;
+  right: 5%;
+  font-size: 23px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+}
